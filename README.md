@@ -1,6 +1,9 @@
 This repository contains the Python code required to conduct two labs for an Engineering module at Lancaster University, titled "ENGR415: Machine Learning in Engineering".
 
-The code is included for completeness and is supplementary to the main report. If you wish to run the code, you will have to install the following libraries, change the file paths in the code and may make some small adjustments based on your machine.  It is highly reccomended to run these programs on a virtual environment (VM).
+The code is included for completeness and is supplementary to the main report. If you wish to run the code, you will have to install the following libraries, change the file paths in the code and may make some small adjustments based on your machine.  It is highly reccomended to run these programs in a Python virtual environment (venv).
+
+Lab 1 code is designed to run with the database from the PhysioNet 2016 Heart challenge located here:
+https://physionet.org/content/challenge-2016/1.0.0/
 
 The authors responsible for this code are: Ryan Cheung, Anthony Davies, and Adrian Grinyer.
 
