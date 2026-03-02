@@ -1148,7 +1148,7 @@ ap = plot_precision_recall(
 print("\n--- Appendix: Pareto front (Sensitivity vs Specificity) ---")
 pareto_df = plot_pareto_se_sp(df_hpo, save_path="Appendix_Pareto_Se_Sp.svg", zoom=True)
 #%%
+# Uncomment to remove unzipped files
 #input("Press Enter to exit, unzipped files will be deleted")
 #shutil.rmtree(extract_dir, ignore_errors=True)
  
-# Copilot's auto generated comment suggestor is a real one (and also the debugger as well)
