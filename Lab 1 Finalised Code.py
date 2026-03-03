@@ -33,9 +33,9 @@ from hyperopt.pyll.base import scope
 from matplotlib.patches import Patch
 
 
-# change to match absolute file adresses for your pc, r is there to read as string literal
-zip_path = r"C:\Users\Ryank\Downloads\Lab 1 Heart Sound Classification.zip"
-extract_dir = r"C:\Users\Ryank\OneDrive\Desktop\.Stuff Needed for backup 28th Dec 2023\.Year 4 Engineering\ENGR415 Machine Learning in Engineering\Lab 1 Coursework"
+# Change to match absolute file adresses for your pc, use r to read as string literal
+zip_path = ""
+extract_dir = ""
 # Create the folder if it does not exist
 os.makedirs(extract_dir, exist_ok=True)
 # Open the zip file and extract all contents to extract_dir
@@ -1147,8 +1147,8 @@ ap = plot_precision_recall(
 
 print("\n--- Appendix: Pareto front (Sensitivity vs Specificity) ---")
 pareto_df = plot_pareto_se_sp(df_hpo, save_path="Appendix_Pareto_Se_Sp.svg", zoom=True)
+
 #%%
-#input("Press Enter to exit, unzipped files will be deleted")
-#shutil.rmtree(extract_dir, ignore_errors=True)
+input("Press Enter to exit, unzipped files will be deleted")
+shutil.rmtree(extract_dir, ignore_errors=True)
  
-# Copilot's auto generated comment suggestor is a real one (and also the debugger as well)
