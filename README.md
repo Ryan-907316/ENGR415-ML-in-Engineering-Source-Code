@@ -1,4 +1,4 @@
-This repository contains the Python code required to conduct two labs for an Engineering module at Lancaster University, titled "ENGR415: Machine Learning in Engineering".
+This repository contains the Python code required to conduct two labs for an Engineering module at Lancaster University, titled "ENGR415: Machine Learning in Engineering", completed in February 2026.
 
 The code is included for completeness and is supplementary to the main report. If you wish to run the code, you will have to install the following libraries, change the file paths in the code and may make some small adjustments based on your machine.  It is highly reccomended to run these programs in a Python virtual environment (venv).
 
